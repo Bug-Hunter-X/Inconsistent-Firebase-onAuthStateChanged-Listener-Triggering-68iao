@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not always trigger when the authentication state changes, especially during rapid state transitions or network fluctuations.  This can lead to unexpected behavior in your application, such as displaying incorrect user information or failing to redirect users appropriately.
